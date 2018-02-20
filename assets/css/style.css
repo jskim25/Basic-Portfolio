@@ -29,6 +29,7 @@ p:last-child {
     margin-bottom: 0;
 }
 
+/* index.html */
 /* header */
 
 .main-header {
@@ -77,7 +78,7 @@ nav a:first-child {
     border-left: none;
 }
 
-/* main content section */
+/* main content */
 
 .container2 {
     display: flex;
@@ -162,4 +163,75 @@ footer {
     width: 100%;
     text-align: center;
     clear: both;
+}
+
+/* contact html */
+
+label, input[type=text], input[type=email], textarea {
+    width: 100%;
+    display: flex;
+}
+
+input[type=text], input[type=email], textarea {
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+
+.contact-form ul {
+    margin-bottom: 25px;
+}
+
+.contact-form li {
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 0 none;
+    padding: 10px 25px;
+}
+
+/* portfolio html */
+
+.project-container {
+    display: flex; 
+    align-content: space-around; 
+    flex-direction: column; 
+    flex-wrap: wrap;
+    height: 975px;
+}
+
+.project img {
+    width: 100%;
+    border: 0px none;
+}
+
+.project {
+    position: relative;
+    width: 274px;
+    margin: 20px 0 20px;
+}
+
+/* not sure how to make last image align left */
+
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: center;
 }
